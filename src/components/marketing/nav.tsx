@@ -8,11 +8,11 @@ import { buttonClass } from "@/lib/button";
 import { cn } from "@/lib/utils";
 
 const links = [
-  { label: "Product", href: "#product" },
-  { label: "Intelligence", href: "#intelligence" },
-  { label: "Portals", href: "#portals" },
-  { label: "Stories", href: "#stories" },
-  { label: "Q&A", href: "#questions" },
+  { label: "Products", href: "/products" },
+  { label: "Intelligence", href: "/#intelligence" },
+  { label: "Portals", href: "/#portals" },
+  { label: "About", href: "/about" },
+  { label: "Contact", href: "/contact" },
 ];
 
 export function MarketingNav() {

@@ -17,6 +17,7 @@ import { Wordmark, Mark } from "@/components/ui/logo";
 import { buttonClass } from "@/lib/button";
 import { Reveal } from "./reveal";
 import { cn } from "@/lib/utils";
+import { site } from "@/lib/site";
 
 const stories = [
   {
@@ -270,21 +271,21 @@ export function ClosingCta() {
 
 const footerCols = [
   {
-    title: "Platform",
+    title: "Company",
     links: [
-      { label: "Overview", href: "#product" },
-      { label: "Intelligence", href: "#intelligence" },
-      { label: "Portals", href: "#portals" },
-      { label: "Questions", href: "#questions" },
+      { label: "About", href: "/about" },
+      { label: "Products", href: "/products" },
+      { label: "Contact", href: "/contact" },
+      { label: "Questions", href: "/#questions" },
     ],
   },
   {
     title: "Modules",
     links: [
-      { label: "Admissions", href: "#product" },
-      { label: "Attendance", href: "#product" },
-      { label: "Results and CBT", href: "#product" },
-      { label: "Fees", href: "#product" },
+      { label: "Admissions", href: "/#product" },
+      { label: "Attendance", href: "/products" },
+      { label: "Results and CBT", href: "/products" },
+      { label: "Fees", href: "/products" },
     ],
   },
   {
@@ -292,8 +293,8 @@ const footerCols = [
     links: [
       { label: "Sign in", href: "/auth/sign-in" },
       { label: "Create workspace", href: "/auth/sign-up" },
-      { label: "Administrator", href: "/auth/sign-in" },
-      { label: "Parent portal", href: "/auth/sign-in" },
+      { label: "Privacy Policy", href: "/privacy" },
+      { label: "Terms of Service", href: "/terms" },
     ],
   },
 ];
@@ -309,18 +310,29 @@ export function Footer() {
               The AI-native operating system for schools. Every answer is grounded in the records
               your team already keeps.
             </p>
-            <div className="mt-5 space-y-2 text-[11.5px] text-muted">
+            <p className="mt-4 text-[11px] font-semibold text-ink">{site.companyLine}</p>
+            <div className="mt-3 space-y-2 text-[11.5px] text-muted">
               <p className="flex items-center gap-2">
                 <MapPin className="h-3.5 w-3.5 text-brand" />
-                18 Adeola Odeku Street, Victoria Island, Lagos
+                {site.address}
               </p>
               <p className="flex items-center gap-2">
                 <Mail className="h-3.5 w-3.5 text-brand" />
-                hello@eduschol.app
+                <a
+                  href={`mailto:${site.email}`}
+                  className="transition-colors hover:text-brand"
+                >
+                  {site.email}
+                </a>
               </p>
               <p className="flex items-center gap-2">
                 <Phone className="h-3.5 w-3.5 text-brand" />
-                +234 802 451 9080
+                <a
+                  href={`tel:${site.phone.replace(/\s/g, "")}`}
+                  className="transition-colors hover:text-brand"
+                >
+                  {site.phone}
+                </a>
               </p>
             </div>
           </div>
@@ -351,7 +363,9 @@ export function Footer() {
         <div className="mt-10 flex flex-wrap items-center justify-between gap-4 border-t border-line pt-6">
           <div className="flex items-center gap-2 text-[11px] text-muted">
             <Mark className="h-5 w-5" />
-            <span>Eduschol {new Date().getFullYear()}. Built for schools that think ahead.</span>
+            <span>
+              © {new Date().getFullYear()} {site.company}. Eduschol is a product of {site.company}.
+            </span>
           </div>
           <div className="flex items-center gap-4 text-[11px] text-muted">
             <span>Frontend demo, data stays in this browser</span>

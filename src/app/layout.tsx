@@ -25,9 +25,14 @@ const instrument = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://eduschol.xyz"),
   title: "Eduschol. The operating system for schools that think ahead.",
   description:
     "Eduschol brings admissions, attendance, results, CBT, fees, staff, inventory and parent communication into one AI-native school platform that never invents a record.",
+  icons: {
+    icon: "/eduschol-logo.png",
+    apple: "/eduschol-logo.png",
+  },
   keywords: [
     "school management system",
     "AI school software",
