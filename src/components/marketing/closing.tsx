@@ -276,13 +276,13 @@ const footerCols = [
       { label: "About", href: "/about" },
       { label: "Products", href: "/products" },
       { label: "Contact", href: "/contact" },
-      { label: "Questions", href: "/#questions" },
+      { label: "Questions", href: "/questions" },
     ],
   },
   {
     title: "Modules",
     links: [
-      { label: "Admissions", href: "/#product" },
+      { label: "Admissions", href: "/product" },
       { label: "Attendance", href: "/products" },
       { label: "Results and CBT", href: "/products" },
       { label: "Fees", href: "/products" },
@@ -293,6 +293,7 @@ const footerCols = [
     links: [
       { label: "Sign in", href: "/auth/sign-in" },
       { label: "Create workspace", href: "/auth/sign-up" },
+      { label: "Company Verification", href: "/verify" },
       { label: "Privacy Policy", href: "/privacy" },
       { label: "Terms of Service", href: "/terms" },
     ],
