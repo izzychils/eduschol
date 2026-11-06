@@ -80,19 +80,19 @@ export function makeClasses(staff: Staff[]): ClassRoom[] {
 
 export function makeStaff(): Staff[] {
   return [
-    { id: "stf_1", name: "Ngozi Balogun", email: "principal@eduschol.app", phone: "+234 803 412 7781", title: "Principal", department: "Leadership", subjects: [], status: "active", joinedAt: "2016-08-15", salary: 620000 },
-    { id: "stf_2", name: "Tunde Bello", email: "tunde@eduschol.app", phone: "+234 806 118 2430", title: "Vice Principal, Academics", department: "Leadership", subjects: ["Mathematics"], formClassId: "cls_ss2s", status: "active", joinedAt: "2018-01-09", salary: 480000 },
-    { id: "stf_3", name: "Adaeze Nwosu", email: "adaeze@eduschol.app", phone: "+234 802 774 1190", title: "Form Teacher", department: "Science", subjects: ["Mathematics", "Basic Science"], formClassId: "cls_jss1a", status: "active", joinedAt: "2019-09-02", salary: 365000 },
-    { id: "stf_4", name: "Emeka Obi", email: "emeka@eduschol.app", phone: "+234 809 226 4412", title: "Mathematics Teacher", department: "Science", subjects: ["Mathematics"], formClassId: "cls_jss3a", status: "active", joinedAt: "2020-01-13", salary: 340000 },
-    { id: "stf_5", name: "Fatima Sani", email: "fatima@eduschol.app", phone: "+234 805 903 7712", title: "English Teacher", department: "Languages", subjects: ["English Language", "Literature"], status: "active", joinedAt: "2018-09-03", salary: 355000 },
-    { id: "stf_6", name: "Kelechi Umeh", email: "kelechi@eduschol.app", phone: "+234 807 552 9081", title: "Basic Science Teacher", department: "Science", subjects: ["Basic Science"], formClassId: "cls_jss2a", status: "active", joinedAt: "2021-09-06", salary: 310000 },
-    { id: "stf_7", name: "Yewande Adeyemi", email: "yewande@eduschol.app", phone: "+234 810 447 2280", title: "Social Studies Teacher", department: "Humanities", subjects: ["Social Studies"], formClassId: "cls_jss1b", status: "active", joinedAt: "2022-01-10", salary: 295000 },
-    { id: "stf_8", name: "Ibrahim Musa", email: "ibrahim@eduschol.app", phone: "+234 803 661 9044", title: "ICT Teacher", department: "Technology", subjects: ["Computer Studies"], status: "active", joinedAt: "2021-09-06", salary: 320000 },
-    { id: "stf_9", name: "Blessing Okafor", email: "blessing@eduschol.app", phone: "+234 806 330 1129", title: "Primary Class Teacher", department: "Primary", subjects: ["Mathematics", "English Language"], formClassId: "cls_pri5", status: "active", joinedAt: "2017-09-04", salary: 300000 },
-    { id: "stf_10", name: "Chinedu Eze", email: "chinedu@eduschol.app", phone: "+234 809 884 2201", title: "Physics Teacher", department: "Science", subjects: ["Physics", "Mathematics"], formClassId: "cls_ss1s", status: "active", joinedAt: "2019-01-07", salary: 375000 },
-    { id: "stf_11", name: "Halima Yusuf", email: "halima@eduschol.app", phone: "+234 802 119 8874", title: "Literature Teacher", department: "Languages", subjects: ["Literature", "English Language"], status: "on leave", joinedAt: "2020-09-01", salary: 305000 },
-    { id: "stf_12", name: "Grace Etim", email: "grace@eduschol.app", phone: "+234 805 772 6630", title: "Bursar", department: "Finance", subjects: [], status: "active", joinedAt: "2015-03-02", salary: 390000 },
-    { id: "stf_13", name: "Samuel Adeoye", email: "samuel@eduschol.app", phone: "+234 807 341 5590", title: "Operations Officer", department: "Operations", subjects: [], status: "active", joinedAt: "2022-08-22", salary: 250000 },
+    { id: "stf_1", name: "Ngozi Balogun", email: "principal@eduschol.xyz", phone: "+234 803 412 7781", title: "Principal", department: "Leadership", subjects: [], status: "active", joinedAt: "2016-08-15", salary: 620000 },
+    { id: "stf_2", name: "Tunde Bello", email: "tunde@eduschol.xyz", phone: "+234 806 118 2430", title: "Vice Principal, Academics", department: "Leadership", subjects: ["Mathematics"], formClassId: "cls_ss2s", status: "active", joinedAt: "2018-01-09", salary: 480000 },
+    { id: "stf_3", name: "Adaeze Nwosu", email: "adaeze@eduschol.xyz", phone: "+234 802 774 1190", title: "Form Teacher", department: "Science", subjects: ["Mathematics", "Basic Science"], formClassId: "cls_jss1a", status: "active", joinedAt: "2019-09-02", salary: 365000 },
+    { id: "stf_4", name: "Emeka Obi", email: "emeka@eduschol.xyz", phone: "+234 809 226 4412", title: "Mathematics Teacher", department: "Science", subjects: ["Mathematics"], formClassId: "cls_jss3a", status: "active", joinedAt: "2020-01-13", salary: 340000 },
+    { id: "stf_5", name: "Fatima Sani", email: "fatima@eduschol.xyz", phone: "+234 805 903 7712", title: "English Teacher", department: "Languages", subjects: ["English Language", "Literature"], status: "active", joinedAt: "2018-09-03", salary: 355000 },
+    { id: "stf_6", name: "Kelechi Umeh", email: "kelechi@eduschol.xyz", phone: "+234 807 552 9081", title: "Basic Science Teacher", department: "Science", subjects: ["Basic Science"], formClassId: "cls_jss2a", status: "active", joinedAt: "2021-09-06", salary: 310000 },
+    { id: "stf_7", name: "Yewande Adeyemi", email: "yewande@eduschol.xyz", phone: "+234 810 447 2280", title: "Social Studies Teacher", department: "Humanities", subjects: ["Social Studies"], formClassId: "cls_jss1b", status: "active", joinedAt: "2022-01-10", salary: 295000 },
+    { id: "stf_8", name: "Ibrahim Musa", email: "ibrahim@eduschol.xyz", phone: "+234 803 661 9044", title: "ICT Teacher", department: "Technology", subjects: ["Computer Studies"], status: "active", joinedAt: "2021-09-06", salary: 320000 },
+    { id: "stf_9", name: "Blessing Okafor", email: "blessing@eduschol.xyz", phone: "+234 806 330 1129", title: "Primary Class Teacher", department: "Primary", subjects: ["Mathematics", "English Language"], formClassId: "cls_pri5", status: "active", joinedAt: "2017-09-04", salary: 300000 },
+    { id: "stf_10", name: "Chinedu Eze", email: "chinedu@eduschol.xyz", phone: "+234 809 884 2201", title: "Physics Teacher", department: "Science", subjects: ["Physics", "Mathematics"], formClassId: "cls_ss1s", status: "active", joinedAt: "2019-01-07", salary: 375000 },
+    { id: "stf_11", name: "Halima Yusuf", email: "halima@eduschol.xyz", phone: "+234 802 119 8874", title: "Literature Teacher", department: "Languages", subjects: ["Literature", "English Language"], status: "on leave", joinedAt: "2020-09-01", salary: 305000 },
+    { id: "stf_12", name: "Grace Etim", email: "grace@eduschol.xyz", phone: "+234 805 772 6630", title: "Bursar", department: "Finance", subjects: [], status: "active", joinedAt: "2015-03-02", salary: 390000 },
+    { id: "stf_13", name: "Samuel Adeoye", email: "samuel@eduschol.xyz", phone: "+234 807 341 5590", title: "Operations Officer", department: "Operations", subjects: [], status: "active", joinedAt: "2022-08-22", salary: 250000 },
   ];
 }
 
@@ -145,14 +145,14 @@ export function makeStudents(classes: ClassRoom[]): Student[] {
     {
       id: "stu_1", admissionNo: "GFA/2024/031", firstName: "Chidera", lastName: "Eze", gender: "female",
       dateOfBirth: "2012-04-18", classId: "cls_jss2a", status: "active", guardianName: "Ngozi Eze",
-      guardianPhone: "+234 803 551 2204", guardianEmail: "parent@eduschol.app",
+      guardianPhone: "+234 803 551 2204", guardianEmail: "parent@eduschol.xyz",
       address: "7B Oniru Estate, Victoria Island, Lagos", admittedAt: "2024-09-09", house: "Emerald",
       busRouteId: "rte_2", notes: BLOOD_NOTE,
     },
     {
       id: "stu_2", admissionNo: "GFA/2024/044", firstName: "Somto", lastName: "Eze", gender: "male",
       dateOfBirth: "2011-11-02", classId: "cls_jss3a", status: "active", guardianName: "Ngozi Eze",
-      guardianPhone: "+234 803 551 2204", guardianEmail: "parent@eduschol.app",
+      guardianPhone: "+234 803 551 2204", guardianEmail: "parent@eduschol.xyz",
       address: "7B Oniru Estate, Victoria Island, Lagos", admittedAt: "2024-09-09", house: "Amber",
       busRouteId: "rte_2", notes: BLOOD_NOTE,
     },

@@ -9,8 +9,8 @@ import { cn } from "@/lib/utils";
 
 const links = [
   { label: "Products", href: "/products" },
-  { label: "Intelligence", href: "/#intelligence" },
-  { label: "Portals", href: "/#portals" },
+  { label: "Intelligence", href: "/intelligence" },
+  { label: "Portals", href: "/portals" },
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
 ];
