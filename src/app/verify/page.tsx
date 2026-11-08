@@ -1,4 +1,4 @@
-import { Metadata } from "next";
+/* import { Metadata } from "next";
 import { MarketingNav } from "@/components/marketing/nav";
 import { Footer } from "@/components/marketing/closing";
 import { VerificationCard } from "@/components/verification-card";
@@ -17,7 +17,7 @@ export default function VerifyPage() {
       <MarketingNav />
       
       <main>
-        {/* Hero Section */}
+        {/* Hero Section *\/}
         <section className="border-b border-line bg-white py-16 sm:py-20">
           <div className="mx-auto max-w-[1280px] px-5 lg:px-8">
             <div className="mx-auto max-w-[720px] text-center">
@@ -36,7 +36,7 @@ export default function VerifyPage() {
           </div>
         </section>
 
-        {/* Verification Card */}
+        {/* Verification Card *\/}
         <section className="bg-canvas py-16 sm:py-20">
           <div className="mx-auto max-w-[1280px] px-5 lg:px-8">
             <Reveal>
@@ -45,7 +45,7 @@ export default function VerifyPage() {
           </div>
         </section>
 
-        {/* Info Section */}
+        {/* Info Section *\/}
         <section className="border-t border-line bg-white py-16 sm:py-20">
           <div className="mx-auto max-w-[1280px] px-5 lg:px-8">
             <Reveal>
@@ -143,4 +143,10 @@ export default function VerifyPage() {
       <Footer />
     </div>
   );
+}
+ */
+
+// This page is temporarily disabled
+export default function VerifyPage() {
+  return null;
 }

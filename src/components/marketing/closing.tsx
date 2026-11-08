@@ -293,7 +293,7 @@ const footerCols = [
     links: [
       { label: "Sign in", href: "/auth/sign-in" },
       { label: "Create workspace", href: "/auth/sign-up" },
-      { label: "Company Verification", href: "/verify" },
+      // { label: "Company Verification", href: "/verify" },
       { label: "Privacy Policy", href: "/privacy" },
       { label: "Terms of Service", href: "/terms" },
     ],
@@ -311,7 +311,7 @@ export function Footer() {
               The AI-native operating system for schools. Every answer is grounded in the records
               your team already keeps.
             </p>
-            <p className="mt-4 text-[11px] font-semibold text-ink">{site.companyLine}</p>
+            {/* <p className="mt-4 text-[11px] font-semibold text-ink">{site.companyLine}</p> */}
             <div className="mt-3 space-y-2 text-[11.5px] text-muted">
               <p className="flex items-center gap-2">
                 <MapPin className="h-3.5 w-3.5 text-brand" />
@@ -365,7 +365,7 @@ export function Footer() {
           <div className="flex items-center gap-2 text-[11px] text-muted">
             <Mark className="h-5 w-5" />
             <span>
-              © {new Date().getFullYear()} {site.company}. Eduschol is a product of {site.company}.
+              © {new Date().getFullYear()} {site.company}. {/* Eduschol is a product of {site.company}. */}
             </span>
           </div>
           <div className="flex items-center gap-4 text-[11px] text-muted">
