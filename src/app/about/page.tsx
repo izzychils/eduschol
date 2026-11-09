@@ -6,7 +6,7 @@ import { PageLanding, SectionBlock, Bullets } from "@/components/marketing/page-
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Eduschol is a school management system from Ivents: admissions, attendance, results, CBT, fees and parent communication in one workspace.",
+    "Eduschol is a school management system: admissions, attendance, results, CBT, fees and parent communication in one workspace.", // "Eduschol is a school management system from Ivents: admissions, attendance, results, CBT, fees and parent communication in one workspace.",
 };
 
 export default function AboutPage() {

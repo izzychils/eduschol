@@ -10,8 +10,8 @@ export const site = {
   tagline: "The AI-native operating system for schools",
   description:
     "Eduschol runs admissions, attendance, results, CBT, fees, staff and parent communication in one workspace. Every AI answer is grounded in the records the school already keeps.",
-  company: "Ivents",
-  companyLine: "Eduschol is a product of Ivents.",
+  company: "Eduschol", // "Ivents",
+  companyLine: "Eduschol", // "Eduschol is a product of Ivents.",
   email: "hello@eduschol.xyz",
   supportEmail: "support@eduschol.xyz",
   phone: "+234 802 451 9080",

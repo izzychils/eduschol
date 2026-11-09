@@ -15,11 +15,11 @@ interface CompanyRecord {
   country: string;
 }
 
-// Official Eduschol/Ivents company record
+// Official Eduschol company record
 const companyDatabase: CompanyRecord[] = [
   {
     registrationId: "ES-2026-00001",
-    companyName: "Ivents",
+    companyName: "Eduschol", // "Ivents",
     website: "eduschol.xyz",
     status: "Verified",
     registrationDate: "2026-01-10",
