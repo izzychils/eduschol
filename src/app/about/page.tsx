@@ -47,7 +47,7 @@ export default function AboutPage() {
       <SectionBlock title="How it is built">
         <p>
           Eduschol ships with a complete sample school so a team can click through every screen
-          before entering real data. Each role — administrator, teacher, bursar, parent — sees only
+          before entering real data. Each role - administrator, teacher, bursar, parent - sees only
           what that role should see: teachers do not see payroll or whole-school finance, and
           parents see only their own children.
         </p>

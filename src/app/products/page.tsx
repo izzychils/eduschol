@@ -77,7 +77,7 @@ export default function ProductsPage() {
         <p>
           The academic assistants read from the records already in the workspace. Ask for a class
           summary, a draft report comment or a parent letter and the answer is built from real
-          scores and real attendance — then shown to a human for approval before anything is sent.
+          scores and real attendance - then shown to a human for approval before anything is sent.
         </p>
       </SectionBlock>
 

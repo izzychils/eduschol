@@ -5,7 +5,7 @@ import { PageLanding, SectionBlock } from "@/components/marketing/page-shell";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: `Contact ${site.company} about Eduschol — demos, onboarding a school, pricing or support.`,
+  description: `Contact ${site.company} about Eduschol - demos, onboarding a school, pricing or support.`,
 };
 
 export default function ContactPage() {

@@ -61,7 +61,7 @@ export const metadata: Metadata = {
   publisher: "Eduschol",
   applicationName: "Eduschol",
   openGraph: {
-    title: "Eduschol — the operating system for schools that think ahead",
+    title: "Eduschol: the operating system for schools that think ahead",
     description:
       "One calm operating system for every part of your school, with an AI layer that works from real records.",
     url: "https://eduschol.xyz",
@@ -71,9 +71,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Eduschol — the AI-native operating system for schools",
+    title: "Eduschol: the AI-native operating system for schools",
     description:
-      "Admissions, attendance, results, CBT, fees, staff and parent communication in one workspace — with an AI layer grounded in real school records.",
+      "Admissions, attendance, results, CBT, fees, staff and parent communication in one workspace - with an AI layer grounded in real school records.",
   },
 };
 
