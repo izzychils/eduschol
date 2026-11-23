@@ -21,15 +21,17 @@ export default function AboutPage() {
       <SectionBlock title="What Eduschol does">
         <p>
           A student is admitted once. That record then carries them through the register, the
-          gradebook, the fee ledger, the parent portal and the report card. Nothing is retyped
-          between departments, and the term-end reconciliation is already finished when the term
-          ends.
+          gradebook, the fee ledger, the parent portal and the report card. AI assists by drafting
+          report comments, generating parent communications, and answering administrative questions
+          - all grounded in your actual school data. Nothing is retyped between departments, and the
+          term-end reconciliation is already finished when the term ends.
         </p>
         <p>
           The AI layer sits on top of those records rather than beside them. Every assistant answer
           is grounded in data the school actually holds; when a field is missing, it says so and
-          points at the field instead of inventing a value. Draft comments and letters are always
-          shown for a teacher or administrator to approve.
+          points at the field instead of inventing a value. AI can draft comments, generate letters,
+          analyze attendance patterns, and suggest interventions - but everything is shown for a
+          teacher or administrator to approve before it goes out.
         </p>
       </SectionBlock>
 
@@ -46,10 +48,12 @@ export default function AboutPage() {
 
       <SectionBlock title="How it is built">
         <p>
-          Eduschol ships with a complete sample school so a team can click through every screen
-          before entering real data. Each role - administrator, teacher, bursar, parent - sees only
-          what that role should see: teachers do not see payroll or whole-school finance, and
-          parents see only their own children.
+          Eduschol combines traditional school record-keeping with AI assistance throughout. AI helps
+          with drafting communications, analyzing patterns, and answering questions, while the core
+          system maintains accurate records across all departments. The platform ships with a complete
+          sample school so a team can click through every screen before entering real data. Each role
+          - administrator, teacher, bursar, parent - sees only what that role should see: teachers do
+          not see payroll or whole-school finance, and parents see only their own children.
         </p>
         <p>
           This build is a frontend demonstration. Accounts, records, payments and announcements
