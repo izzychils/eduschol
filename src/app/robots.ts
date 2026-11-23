@@ -7,7 +7,7 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/auth", "/dashboard", "/print"],
     },
-    sitemap: "https://eduschol.xyz/sitemap.xml",
-    host: "https://eduschol.xyz",
+    sitemap: "https://eduschol.online/sitemap.xml",
+    host: "https://eduschol.online",
   };
 }

@@ -5,15 +5,15 @@
  */
 export const site = {
   name: "Eduschol",
-  domain: "eduschol.xyz",
-  url: "https://eduschol.xyz",
+  domain: "eduschol.online",
+  url: "https://www.eduschol.online",
   tagline: "The AI-native operating system for schools",
   description:
     "Eduschol runs admissions, attendance, results, CBT, fees, staff and parent communication in one workspace. Every AI answer is grounded in the records the school already keeps.",
   company: "Eduschol", // "Ivents",
   companyLine: "Eduschol", // "Eduschol is a product of Ivents.",
-  email: "hello@eduschol.xyz",
-  supportEmail: "support@eduschol.xyz",
+  email: "hello@eduschol.online",
+  supportEmail: "support@eduschol.online",
   phone: "+234 802 451 9080",
   address: "18 Adeola Odeku Street, Victoria Island, Lagos",
   location: "Victoria Island, Lagos, Nigeria",

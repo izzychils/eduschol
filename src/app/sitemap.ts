@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const BASE = "https://eduschol.xyz";
+const BASE = "https://eduschol.online";
 const lastModified = new Date("2026-11-19");
 
 const publicPaths: {

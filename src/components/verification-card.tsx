@@ -20,7 +20,7 @@ const companyDatabase: CompanyRecord[] = [
   {
     registrationId: "ES-2026-00001",
     companyName: "Eduschol", // "Ivents",
-    website: "eduschol.xyz",
+    website: "eduschol.online",
     status: "Verified",
     registrationDate: "2026-01-10",
     expiryDate: "2029-01-09",

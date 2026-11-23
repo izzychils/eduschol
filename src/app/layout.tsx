@@ -25,7 +25,7 @@ const instrument = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://eduschol.xyz"),
+  metadataBase: new URL("https://eduschol.online"),
   title: "Eduschol. The operating system for schools that think ahead.",
   description:
     "Eduschol brings admissions, attendance, results, CBT, fees, staff, inventory and parent communication into one AI-native school platform that never invents a record.",
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
     title: "Eduschol: the operating system for schools that think ahead",
     description:
       "One calm operating system for every part of your school, with an AI layer that works from real records.",
-    url: "https://eduschol.xyz",
+    url: "https://eduschol.online",
     siteName: "Eduschol",
     locale: "en_NG",
     type: "website",
@@ -82,10 +82,10 @@ const structuredData = {
   "@graph": [
     {
       "@type": "Organization",
-      "@id": "https://eduschol.xyz/#organization",
+      "@id": "https://eduschol.online/#organization",
       name: "Eduschol",
-      url: "https://eduschol.xyz",
-      email: "hello@eduschol.xyz",
+      url: "https://eduschol.online",
+      email: "hello@eduschol.online",
       telephone: "+2348024519080",
       description:
         "Eduschol is a school management platform for Nigerian schools: admissions, attendance, results, CBT exams, fees, staff and parent communication.",
@@ -98,10 +98,10 @@ const structuredData = {
     },
     {
       "@type": "WebSite",
-      "@id": "https://eduschol.xyz/#website",
-      url: "https://eduschol.xyz",
+      "@id": "https://eduschol.online/#website",
+      url: "https://eduschol.online",
       name: "Eduschol",
-      publisher: { "@id": "https://eduschol.xyz/#organization" },
+      publisher: { "@id": "https://eduschol.online/#organization" },
       inLanguage: "en",
     },
     {
@@ -110,7 +110,7 @@ const structuredData = {
       applicationCategory: "BusinessApplication",
       applicationSubCategory: "School management system",
       operatingSystem: "Web browser",
-      url: "https://eduschol.xyz",
+      url: "https://eduschol.online",
       description:
         "One AI-native school platform covering admissions, attendance, results, CBT, fees, staff records, inventory and parent communication.",
       featureList: [
